@@ -1,0 +1,75 @@
+/**************
+YLEINEN
+**************/
+body {
+	font-family: 'Sanchez', serif;
+	background-color: azure;
+}
+
+
+a {
+  text-decoration: none;
+	font-size: 1.65em;
+}
+
+
+
+#myform {
+	object-position: center;
+	width: 80%;
+	margin: 25px;
+
+    border-radius: 10px;
+
+}
+
+
+/*************************
+HEADINGI
+*************************/
+
+header {
+  float: left;
+  margin: 0 0 40px 0;
+  padding: 40px 0 0 0;
+  width: 100%;
+  
+}
+#logo {
+position:absolute; top:0; left:30px;
+color: mediumvioletred;  
+}
+
+h1 {
+  font-family: 'Alegreya', serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+	
+}
+
+div {
+	text-align: center;
+    width: 250px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin-top: 10px;
+}
+
+
+
+/*************************
+FOOTERI
+*************************/
+
+
+footer {
+  font-size: 0.85em;
+  text-align: center;
+  clear: both;
+  padding-bottom: 10px;
+  color: mediumvioletred;
+  
+}
+

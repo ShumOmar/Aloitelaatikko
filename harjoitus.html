@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+
+  <title>  Harjoitus 1 </title>
+  
+  <!-- merkistö -->
+  <meta charset="UTF-8">
+  
+  <!-- tyylimääritykset -->
+  <style>
+    <!--kaikki tyylit tänne -->
+  </style>
+  
+  <!-- JavaScript -->
+  <script>
+    <!--scriptit tänne -->
+  </script>
+
+</head>
+
+<body>
+
+  <!-- peruslomake -->
+  <form method="post" action="">
+  
+    <!-- input-elementti -->
+    
+    Etunimi:<input type="text" name="etunimi" size="10"><br>
+    Sukunimi:<input type="text" name="sukunimi" size="10"><br>
+    Sähköposti:<input type="text" name="sahkoposti" size="20"><br>
+    Puhelin:<input type="text" name="puhelin" size="15"><br><br>
+    
+    <input type="Submit" name="Submit" value="Lähetä tiedot"><br><br>
+    
+    Käyttäjätunnus:<br><input type="text" name="kayttajatunnus"><br>
+    Salasana:<br><input type="password" name="salasana"><br><br>
+    
+    <input type="Submit" name="Submit" value="Kirjaudu"><br><br>
+    
+    Anna palautetta<br>
+    <textarea name="palaute" rows="3" cols="40">
+      
+    </textarea><br>
+    
+    <!-- select-elementti -->
+    Valintalista<br>
+    <select name="valinta" size="1">
+    
+      <option>Maanantai</option>
+      <option>Tiistai</option>
+      <option>Keskiviikko</option>
+      <option>Torstai</option>
+      <option selected>Perjantai</option>
+      <option>Lauantai</option>
+      <option>Sunnuntai</option>
+    
+    </select>
+    
+    <input type="Submit" name="Submit" value="Lähetä palautetta"><br><br>
+    
+    <input type="radio" name="mainoksia" value="kylla" checked>
+  Minulle voi lähettää mainoksia<br>
+  <input type="radio" name="mainoksia" value="ei">
+    En halua mainoksia<br>
+  
+  <input type="checkbox" name="ruutu" value="Java-ohjelmointi on kivaa">
+  Java-ohjelmointi on kivaa?<br> 
+  <br><br>
+    
+    <input type="Submit" name="submit" value="Lähetä palautetta">
+  <input type="Reset" name="submit" value="Tyhjennä">
+  
+  
+  </form>
+
+</body>
+
+</html>
